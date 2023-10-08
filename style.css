@@ -22,8 +22,11 @@ h3{
     padding-bottom: 5px;
 }
 
+.align{
+    margin-left: 100px;
+}
 .align1{
-    margin-left: 80px;
+    margin-left: 90px;
 }
 
 .align2{
@@ -55,6 +58,7 @@ nav{
 
 #logo{
     width: 140px;
+    margin-left: 35px;
 }
 
 /* header */
@@ -69,7 +73,7 @@ nav{
 #header-text{
    position: absolute;
    top: 100px;
-   left: 100px;
+   left: 80px;
    color: white;
 }
 
