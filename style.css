@@ -1,0 +1,174 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.center{
+    align-items: center;
+}
+
+h3{
+    margin-left: 95px;
+    font-weight: 550;
+    padding-bottom: 5px;
+}
+
+.align1{
+    margin-left: 70px;
+}
+
+.align2{
+    margin-left: 155px;
+}
+
+.button{
+  
+    background-color: #6196FF;
+    color: white;
+    border: 1px solid #6196FF;
+    border-radius: 4px;
+    margin-top: -10px;
+    padding: 0 3px;
+    width: 52px;
+    align-items: center;
+}
+
+
+.cart-img2{
+    width: 13px;
+}
+
+/* nav-bar */
+nav{
+    margin: 5px 50px 0 50px;
+    height: 40px;
+}
+
+#logo{
+    width: 140px;
+}
+
+/* header */
+#header{
+    background-image: url(./assets/kw-background.png);
+    height: 400px;
+    width: 100%;
+    background-size: 100% 100%;
+    margin-bottom: 100px;
+}
+
+#header-text{
+   position: absolute;
+   top: 100px;
+   left: 100px;
+   color: white;
+}
+
+#header-text>h1{
+   font-size: 62px;
+   font-weight: 370;
+
+}
+
+#header-text>h4{
+   padding-top: 20px;
+   font-size: 20px;
+}
+
+/* books section */
+
+#books{
+    padding-bottom: 100px;
+}
+
+.grid1{
+    display: grid;
+    grid-template-columns: repeat(6,230px);
+    justify-content: center;
+    padding-left: 45px;
+}
+
+.grid1>div>p{
+    color: grey;
+    font-size: 14px;
+    padding: 10px 0 20px 0 ;
+}
+
+.image-layout{
+    width: 180px;
+}
+
+
+#cart-img1{
+    width: 25px;
+    height: 25px;
+   
+}
+
+
+/* games */
+
+#games{
+    padding-bottom: 100px;
+}
+
+.grid2{
+    display: grid;
+    grid-template-columns: repeat(4,355px);
+    /* justify-content: center; */
+    margin-left: 90px;
+}
+
+.grid2>div>p{
+    color: grey;
+    font-size: 14px;
+    padding: 10px 0 20px 0 ;
+}
+
+.image-box{
+    width: 270px;
+}
+
+/* handmade */
+#handmade{
+   padding-bottom: 100px;
+}
+
+/* footer */
+footer{
+    background-color: black;
+    color: white;
+    padding-right: 90px;
+}
+
+#circle-img{
+    width: 120px;
+    height: 120px;
+    border-radius: 60px;
+    margin-left: 90px;
+}
+
+#footer-text{
+    text-align: right;
+    margin-top: 50px;
+}
+
+#footer-text>h4{
+    padding-bottom: 5px;
+}
+
+
+
+
+
+
+
