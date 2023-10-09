@@ -22,9 +22,11 @@ h3{
     padding-bottom: 5px;
 }
 
+/* aligning button  */
 .align{
     margin-left: 100px;
 }
+
 .align1{
     margin-left: 90px;
 }
@@ -45,20 +47,22 @@ h3{
     align-items: center;
 }
 
-
 .cart-img2{
     width: 13px;
 }
 
 /* nav-bar */
 nav{
-    margin: 5px 50px 0 50px;
+    margin: 5px 50px 0 85px;
     height: 40px;
+}
+
+nav>div>p{
+    font-weight: bold;
 }
 
 #logo{
     width: 140px;
-    margin-left: 35px;
 }
 
 /* header */
@@ -128,7 +132,6 @@ nav{
 .grid2{
     display: grid;
     grid-template-columns: repeat(4,355px);
-    /* justify-content: center; */
     margin-left: 90px;
 }
 
@@ -168,6 +171,117 @@ footer{
 
 #footer-text>h4{
     padding-bottom: 5px;
+}
+
+
+@media only screen and (max-width:480px){
+
+    h3{
+        margin-left: 0;
+    }
+    /* nav bar  */
+    nav{
+        margin: 5px 15px 0 15px;
+        height: 40px;
+    }
+
+    #logo{
+        margin-left: 0;
+    }
+
+    #cart-text{
+        width: 80px;
+    }
+    /* body  */
+    body{
+        text-align: center;
+    }
+
+    .flex{
+        display: flex;
+        justify-content: center;
+    }
+
+    .space-between{
+        justify-content: space-between;
+    }
+    
+    .grid1{
+        display: grid;
+        row-gap: 30px;
+        grid-template-columns:1fr;
+        padding-left: 0;
+    }
+
+    .grid2{
+        display: grid;
+        row-gap: 30px;
+        grid-template-columns: 1fr;
+        margin-left: 0;
+    }
+
+    /* header  */
+    #header{
+        height: 200px;
+        width: 100%;
+        background-size: 100% 100%;
+        margin-bottom: 30px;
+    }
+
+    #header-text{
+        position: unset;
+        margin-left: 20px;
+        padding-top: 0;
+        text-align: start;
+        width: 100px;
+     }
+     
+     #header-text>h1{
+        font-size: 31px ;
+        font-weight: 800px;
+     
+     }
+     
+     #header-text>h4{
+        padding-top: 20px;
+        font-size: 15px;
+     }
+
+
+     /* books section  */
+     #books{
+        padding-bottom: 50px;
+    }
+
+    /* games section  */
+    #games{
+        padding-bottom: 50px;
+    }
+
+    /* handmade section  */
+    /* #handmade{
+        padding-bottom: 90px;
+    } */
+
+    /* footer section  */
+
+ footer{
+    padding: 0 20px;
+ }
+ footer>div>h3{
+    width: 100px;
+    padding-left: 12px;
+ }
+
+ #circle-img{
+    margin-left: 0;
+ }
+
+ #footer-text{
+    margin-top: 35px;
+    width: 150px;
+ }
+
 }
 
 
